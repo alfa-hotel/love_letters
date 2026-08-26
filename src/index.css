@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Euclid Circular B';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Euclid_Circular_B-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Atziluth Script';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Atziluth_Script-Regular.woff2') format('woff2');
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #da291c;
+}
+
+#root {
+  min-height: 100dvh;
+}
